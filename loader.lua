@@ -96,7 +96,7 @@ g.Image = "rbxassetid://5012538583"
 g.ImageTransparency = 1.000
 g.MouseButton1Down:connect(
     function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/juNstring/cracks/main/Cihonax/shithonax%20%20func.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/2x52/DivineX/main/source.lua"))()
         j:Destroy()
         for l = 1, 10 do
             g.ImageTransparency = l / 10
