@@ -49,7 +49,7 @@ e.BackgroundTransparency = 1.000
 e.Position = UDim2.new(0, 10, 1, -24)
 e.Size = UDim2.new(1, -40, 0, 16)
 e.Font = Enum.Font.Gotham
-e.Text = "Game supported. Script has been loaded."
+e.Text = "Script has been loaded."
 e.TextColor3 = Color3.fromRGB(255, 255, 255)
 e.TextSize = 14.000
 e.TextTransparency = 1.000
@@ -96,7 +96,6 @@ g.Image = "rbxassetid://5012538583"
 g.ImageTransparency = 1.000
 g.MouseButton1Down:connect(
     function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/2x52/DivineX/main/source.lua"))()
         j:Destroy()
         for l = 1, 10 do
             g.ImageTransparency = l / 10
