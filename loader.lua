@@ -79,7 +79,7 @@ f.MouseButton1Down:connect(
         end
         b:Destroy()
         wait(1)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/SPTS/main/Endless"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/2x52/DivineX/main/source.lua"))()
         for l, m in pairs(game.CoreGui:GetDescendants()) do
             if m.Name == "Intro" then
                 m:Destroy()
